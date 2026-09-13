@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Fazil A — Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <div class="logo">fazil.dev</div>
+    <div class="navlinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <section class="sec sec-light hero-sec">
+    <div class="wrap">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+        </div>
+        <div class="terminal-body">
+          <div><span class="prompt">$</span> whoami</div>
+          <div class="out" id="typed-role"></div>
+          <div style="margin-top:10px;"><span class="prompt">$</span> stack --primary</div>
+          <div class="out">React.js · FastAPI · Django</div>
+        </div>
+      </div>
+
+      <h1 class="headline">Building full-stack apps that connect <em>clean interfaces</em> to solid backends.</h1>
+      <p class="lede">Full Stack Developer skilled in React.js, FastAPI, and Django — comfortable designing REST APIs, integrating databases, and shipping responsive, role-based web applications end to end.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-ghost" href="mailto:froxyfazil7@gmail.com">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="sec sec-dark reveal">
+    <span class="watermark">ABOUT</span>
+    <div class="wrap">
+      <div class="kicker">01 — About</div>
+      <h2 class="section-title">Early-career full-stack developer, based in Coimbatore.</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm an aspiring full-stack developer skilled in building responsive web applications using HTML, CSS, React.js, Python, and Django — with FastAPI now part of my backend toolkit. I care about clean code, form-validated user flows, and interfaces that hold up on both mobile and desktop.</p>
+          <p>Alongside core development, I work with AI-assisted workflows — using tools like Claude and GitHub Copilot to move faster without losing sight of what the code is actually doing.</p>
+        </div>
+        <div class="fact-list">
+          <div class="fact"><span class="k">Location</span><span class="v">Coimbatore, Tamil Nadu</span></div>
+          <div class="fact"><span class="k">Focus</span><span class="v">Full Stack Development</span></div>
+          <div class="fact"><span class="k">Education</span><span class="v">B.E. CSE, 2026</span></div>
+          <div class="fact"><span class="k">Status</span><span class="v">Open to opportunities</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="sec sec-light reveal">
+    <span class="watermark">STACK</span>
+    <div class="wrap">
+      <div class="kicker">02 — Skills</div>
+      <h2 class="section-title">Tools I build with.</h2>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <div class="chip-row">
+            <span class="chip">Python</span><span class="chip">JavaScript</span><span class="chip">C</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <div class="chip-row">
+            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">Bootstrap</span><span class="chip">React.js</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Backend</h3>
+          <div class="chip-row">
+            <span class="chip">Django</span><span class="chip">FastAPI</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Databases</h3>
+          <div class="chip-row">
+            <span class="chip">MySQL</span><span class="chip">MongoDB</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Developer Tools</h3>
+          <div class="chip-row">
+            <span class="chip">Git</span><span class="chip">GitHub Copilot</span><span class="chip">VS Code</span><span class="chip">MySQL Workbench</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>AI Tools</h3>
+          <div class="chip-row">
+            <span class="chip">Claude</span><span class="chip">OpenAI</span><span class="chip">Replit Agent</span><span class="chip">Perplexity</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="sec sec-dark reveal">
+    <span class="watermark">BUILD</span>
+    <div class="wrap">
+      <div class="kicker">03 — Featured Project</div>
+      <h2 class="section-title">SmartStay — local room &amp; house rental booking.</h2>
+      <div class="project-card">
+        <div class="project-top">
+          <h3>SmartStay</h3>
+          <span class="project-year">2025</span>
+        </div>
+        <p class="project-desc">A full-stack rental booking platform for local room and house listings, built with a React.js frontend and a FastAPI backend, with a Django admin panel handling backend administration.</p>
+        <div class="project-stack">
+          <span class="chip">React.js</span><span class="chip">FastAPI</span><span class="chip">Django</span><span class="chip">MySQL</span>
+        </div>
+        <ul class="project-list">
+          <li>Role-based system with two flows: property owners who list rooms, and renters who search and book them.</li>
+          <li>Owner-side listing form with validation for rent amount, house rules, and amenities — pets, balcony, WiFi, food.</li>
+          <li>Location-based search so renters can find nearby available rooms.</li>
+          <li>Responsive UI built with HTML, CSS, and React.js for a consistent mobile-to-desktop experience.</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/fazilazi" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="sec sec-light reveal">
+    <span class="watermark">WORK</span>
+    <div class="wrap">
+      <div class="kicker">04 — Experience</div>
+      <h2 class="section-title">Where I've worked.</h2>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-role">Trainee · GCL International</div>
+          <div class="tl-meta">Coimbatore, Tamil Nadu (Remote) — Jun 2025 – Dec 2025</div>
+          <ul>
+            <li>Built responsive, interactive frontend interfaces using React.js and JavaScript with component-based architecture.</li>
+            <li>Connected frontend components to backend services via REST APIs, with initial exposure to FastAPI.</li>
+            <li>Assisted in integrating a MySQL database through backend APIs for reliable data handling.</li>
+            <li>Collaborated remotely with the team, owning assigned modules in a structured, agile-style workflow.</li>
+          </ul>
+        </div>
+        <div class="tl-item">
+          <div class="tl-role">Full Stack Development Intern · MAANTT Global Services Pvt. Ltd</div>
+          <div class="tl-meta">Chennai, Tamil Nadu — Dec 2023</div>
+          <ul>
+            <li>Built responsive UI designs and modern web interfaces using HTML, CSS, and JavaScript.</li>
+            <li>Developed backend APIs and integrated them with the frontend for end-to-end functionality.</li>
+            <li>Gained practical experience with Git version control and agile development methodologies.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="sec sec-dark reveal">
+    <span class="watermark">LEARN</span>
+    <div class="wrap">
+      <div class="kicker">05 — Education &amp; Certifications</div>
+      <h2 class="section-title">Background.</h2>
+      <div class="edu-row">
+        <div>
+          <div class="edu-name">Bachelor of Engineering — Computer Science &amp; Engineering</div>
+          <div class="edu-sub">Karpagam Academy of Higher Education, Coimbatore</div>
+        </div>
+        <div class="edu-meta">2026 · Full Stack &amp; AI Specialization</div>
+      </div>
+      <div class="edu-row">
+        <div>
+          <div class="edu-name">Python Full Stack Development with React.js</div>
+          <div class="edu-sub">QtreeTechnologies — 4-Month Program</div>
+        </div>
+        <div class="edu-meta">March 2026</div>
+      </div>
+      <div class="edu-row">
+        <div>
+          <div class="edu-name">Introduction to Generative AI</div>
+          <div class="edu-sub">Google</div>
+        </div>
+        <div class="edu-meta">Certificate</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="sec sec-light cta-sec reveal">
+    <div class="wrap">
+      <div class="kicker">06 — Contact</div>
+      <h2 class="contact-title">Let's build<br>something <em>together</em>.</h2>
+      <div class="contact-links">
+        <a href="mailto:froxyfazil7@gmail.com">froxyfazil7@gmail.com</a>
+        <a href="tel:+916383856584">+91 6383856584</a>
+        <a href="https://linkedin.com/in/mohamed-fazil-605689254" target="_blank" rel="noopener">linkedin.com/in/mohamed-fazil</a>
+        <a href="https://github.com/fazilazi" target="_blank" rel="noopener">github.com/fazilazi</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot-bottom">
+    <span>© 2026 Mohamed Fazil A.</span>
+    <span>Coimbatore, Tamil Nadu, India</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
